@@ -4,7 +4,11 @@
         "project": "./tsconfig.json"
     },
     "rules": {
+        "eslint:recommended": "on",
+        "plugin:@typescript-eslint/eslint-recommended": "on",
+        "plugin:@typescript-eslint/recommended": "on",
         "@typescript-eslint/consistent-type-definitions": "off",
-        "@typescript-eslint/strict-boolean-expressions": "off"
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/camelcase": "off"
     }
 }
